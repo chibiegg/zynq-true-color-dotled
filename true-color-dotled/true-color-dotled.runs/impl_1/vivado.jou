@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon May 29 21:42:43 2017
+# Process ID: 5903
+# Current directory: /home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.runs/impl_1
+# Command line: vivado -log true_color_dot_led_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source true_color_dot_led_wrapper.tcl -notrace
+# Log file: /home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.runs/impl_1/true_color_dot_led_wrapper.vdi
+# Journal file: /home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source true_color_dot_led_wrapper.tcl -notrace

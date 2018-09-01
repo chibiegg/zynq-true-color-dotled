@@ -1,0 +1,42 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port led_oe -pg 1 -y 250 -defaultsOSRD
+preplace port led_lat -pg 1 -y 230 -defaultsOSRD
+preplace port led_clk -pg 1 -y 210 -defaultsOSRD
+preplace portBus led_b -pg 1 -y 320 -defaultsOSRD
+preplace portBus led_r -pg 1 -y 280 -defaultsOSRD
+preplace portBus led_addr -pg 1 -y 340 -defaultsOSRD
+preplace portBus led_g -pg 1 -y 300 -defaultsOSRD
+preplace portBus leds_6bits_tri_o -pg 1 -y 420 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 3 -y 420 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 300 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 4 -y 420 -defaultsOSRD
+preplace inst true_color_dot_led_0 -pg 1 -lvl 3 -y 240 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -y 150 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace netloc true_color_dot_led_0_led_g 1 3 2 NJ 300 NJ
+preplace netloc true_color_dot_led_0_led_clk 1 3 2 1060 210 NJ
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 1 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 210 410
+preplace netloc true_color_dot_led_0_led_oe 1 3 2 1040 250 NJ
+preplace netloc true_color_dot_led_0_led_lat 1 3 2 1050 230 NJ
+preplace netloc true_color_dot_led_0_BRAM_IN 1 3 1 1030
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 2 440 340 750
+preplace netloc true_color_dot_led_0_BRAM_OUT 1 3 1 N
+preplace netloc xlconcat_0_dout 1 4 1 NJ
+preplace netloc true_color_dot_led_0_led_b 1 3 2 NJ 320 NJ
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 1 420
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 10 430 60 740
+preplace netloc true_color_dot_led_0_led_addr 1 2 2 740 370 1030
+preplace netloc true_color_dot_led_0_led_r 1 3 2 NJ 280 NJ
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 1 N
+preplace netloc xlslice_0_Dout 1 3 2 1070 340 NJ
+levelinfo -pg 1 0 220 590 890 1180 1310 -top 0 -bot 500
+",
+}
+{
+   da_axi4_cnt: "4",
+}

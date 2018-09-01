@@ -1,0 +1,725 @@
+
+*** Running vivado
+    with args -log true_color_dot_led_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source true_color_dot_led_wrapper.tcl -notrace
+
+
+****** Vivado v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source true_color_dot_led_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc] for cell 'true_color_dot_led_i/processing_system7_0/inst'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:30]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:31]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:32]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:33]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:34]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:35]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:37]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:38]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:39]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:40]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:41]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:42]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:44]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:45]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:46]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:47]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:48]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:49]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:51]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:52]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:53]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:54]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:55]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:56]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:58]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:59]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:60]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:61]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:62]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:63]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:65]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:66]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:67]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:68]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:69]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:70]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:72]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:73]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:74]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:75]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:76]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:77]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:79]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:80]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:81]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:82]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:83]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:84]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:86]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:87]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:88]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:89]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:90]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:91]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:93]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:94]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:95]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:96]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:97]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:98]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:100]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:101]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:102]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:103]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:104]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:105]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:107]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:108]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:109]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:110]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:111]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:112]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:114]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:115]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:116]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:117]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:118]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:119]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:121]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:122]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:123]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:124]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:125]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:126]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:128]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:129]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:130]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:131]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:132]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:133]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:135]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:136]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:137]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:138]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'pullup', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:139]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PIO_DIRECTION', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:140]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'iostandard', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:142]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:143]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'slew', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:144]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'drive', because the property does not exist for objects of type 'pin'. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:145]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+INFO: [Common 17-14] Message 'Netlist 29-160' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc:145]
+Finished Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_processing_system7_0_1/true_color_dot_led_processing_system7_0_1.xdc] for cell 'true_color_dot_led_i/processing_system7_0/inst'
+Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_rst_processing_system7_0_100M_1/true_color_dot_led_rst_processing_system7_0_100M_1_board.xdc] for cell 'true_color_dot_led_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_rst_processing_system7_0_100M_1/true_color_dot_led_rst_processing_system7_0_100M_1_board.xdc] for cell 'true_color_dot_led_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_rst_processing_system7_0_100M_1/true_color_dot_led_rst_processing_system7_0_100M_1.xdc] for cell 'true_color_dot_led_i/rst_processing_system7_0_100M/U0'
+Finished Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/sources_1/bd/true_color_dot_led/ip/true_color_dot_led_rst_processing_system7_0_100M_1/true_color_dot_led_rst_processing_system7_0_100M_1.xdc] for cell 'true_color_dot_led_i/rst_processing_system7_0_100M/U0'
+Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.srcs/constrs_1/new/top.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1228.789 ; gain = 268.266 ; free physical = 1518 ; free virtual = 6807
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1260.805 ; gain = 32.016 ; free physical = 1515 ; free virtual = 6804
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 20ce8c760
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1dbb96eff
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.54 . Memory (MB): peak = 1659.297 ; gain = 0.000 ; free physical = 1181 ; free virtual = 6469
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 22 cells.
+Phase 2 Constant Propagation | Checksum: 11b35a13a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1659.297 ; gain = 0.000 ; free physical = 1180 ; free virtual = 6469
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 256 unconnected nets.
+INFO: [Opt 31-11] Eliminated 143 unconnected cells.
+Phase 3 Sweep | Checksum: 1a29ea477
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1659.297 ; gain = 0.000 ; free physical = 1180 ; free virtual = 6469
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1659.297 ; gain = 0.000 ; free physical = 1180 ; free virtual = 6469
+Ending Logic Optimization Task | Checksum: 1a29ea477
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1659.297 ; gain = 0.000 ; free physical = 1180 ; free virtual = 6469
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 8 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 16 newly gated: 0 Total Ports: 16
+Ending PowerOpt Patch Enables Task | Checksum: 2933f218c
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1029 ; free virtual = 6318
+Ending Power Optimization Task | Checksum: 2933f218c
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1885.469 ; gain = 226.172 ; free physical = 1029 ; free virtual = 6318
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 0 Warnings, 100 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1885.469 ; gain = 656.680 ; free physical = 1029 ; free virtual = 6318
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1028 ; free virtual = 6318
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.runs/impl_1/true_color_dot_led_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1026 ; free virtual = 6315
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 4 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: ef5a0952
+
+Time (s): cpu = 00:00:00.51 ; elapsed = 00:00:00.39 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: ef5a0952
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: ef5a0952
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 08358dc7
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 104301490
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 11a5620d5
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+Phase 1.2.1 Place Init Design | Checksum: f73d77a4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+Phase 1.2 Build Placer Netlist Model | Checksum: f73d77a4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: f73d77a4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+Phase 1 Placer Initialization | Checksum: f73d77a4
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1024 ; free virtual = 6313
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 27427bc3e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 27427bc3e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 248b1fc03
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 2889c7454
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 2889c7454
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 24d65cddb
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1021 ; free virtual = 6311
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 23462fe8e
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1021 ; free virtual = 6311
+
+Phase 3.7 Small Shape Detail Placement
+Phase 3.7 Small Shape Detail Placement | Checksum: 210462f47
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 178771bfc
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 178771bfc
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 3.10 Fast Optimization
+Phase 3.10 Fast Optimization | Checksum: 1fd38281c
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+Phase 3 Detail Placement | Checksum: 1fd38281c
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1022 ; free virtual = 6311
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 updateClock Trees: PCOPT
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 21960feb0
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+
+Phase 4.1.2 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.211. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: 29b3d4482
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+Phase 4.1 Post Commit Optimization | Checksum: 29b3d4482
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 29b3d4482
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 29b3d4482
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+
+Phase 4.4 Placer Reporting
+Phase 4.4 Placer Reporting | Checksum: 29b3d4482
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 2aa24b943
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2aa24b943
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+Ending Placer Task | Checksum: 1d3788c0c
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 0 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1020 ; free virtual = 6309
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.72 ; elapsed = 00:00:00.25 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1017 ; free virtual = 6311
+report_io: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.22 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1019 ; free virtual = 6310
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.20 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1018 ; free virtual = 6309
+report_control_sets: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.13 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 1018 ; free virtual = 6309
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: e6301fec ConstDB: 0 ShapeSum: ed486c20 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: b2b363c0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 967 ; free virtual = 6257
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: b2b363c0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 967 ; free virtual = 6257
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: b2b363c0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 967 ; free virtual = 6257
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: b2b363c0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 967 ; free virtual = 6257
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 2569330b9
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.173 | TNS=-2.209 | WHS=-0.239 | THS=-22.208|
+
+Phase 2 Router Initialization | Checksum: 19544f41a
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:27 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1f375f904
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:28 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 183
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1c374c537
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:30 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.549 | TNS=-8.327 | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: 1ec5082a1
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:30 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: 1b7462453
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:30 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+Phase 4.1.2 GlobIterForTiming | Checksum: aac228b2
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:30 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+Phase 4.1 Global Iteration 0 | Checksum: aac228b2
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:30 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 23
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 10166228e
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:31 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.536 | TNS=-13.250| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 16b55fa1f
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:31 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+Phase 4 Rip-up And Reroute | Checksum: 16b55fa1f
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:31 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 16d92a0da
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:31 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.421 | TNS=-9.509 | WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 2403131b7
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:31 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 2403131b7
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+Phase 5 Delay and Skew Optimization | Checksum: 2403131b7
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 249aa3942
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.409 | TNS=-9.431 | WHS=0.052  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 249aa3942
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+Phase 6 Post Hold Fix | Checksum: 249aa3942
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.445635 %
+  Global Horizontal Routing Utilization  = 0.501014 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 51.3514%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 36.9369%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 57.3529%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 38.2353%, No Congested Regions.
+Phase 7 Route finalize | Checksum: 206c18496
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 206c18496
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1854f9a6d
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.409 | TNS=-9.431 | WHS=0.052  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1854f9a6d
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:32 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+56 Infos, 1 Warnings, 100 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:33 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 953 ; free virtual = 6244
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.98 ; elapsed = 00:00:00.34 . Memory (MB): peak = 1885.469 ; gain = 0.000 ; free physical = 948 ; free virtual = 6244
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.runs/impl_1/true_color_dot_led_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 4 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./true_color_dot_led_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/chibiegg/vivado/projects/zynq-true-color-dotled/true-color-dotled/true-color-dotled.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Mon May 29 21:44:32 2017. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2016.1/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 2186.383 ; gain = 282.883 ; free physical = 611 ; free virtual = 5909
+INFO: [Common 17-206] Exiting Vivado at Mon May 29 21:44:32 2017...
